@@ -1,0 +1,30 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      max-width: 400px;
+      padding: 20px;
+      border: none;
+      border-radius: 10px;
+      background: linear-gradient(to right,red , #e75cdb ,#3498db);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .card:hover {
+      transform: scale(1.1);
+    }
+
+    h2, p {
+      color: #fff;
+    }
